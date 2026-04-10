@@ -33,7 +33,7 @@ The goal is to make player recommendation systems more **flexible**, more **expl
 
 ## Pipeline Overview
 
-![Pipeline](assets/pipeline.png)
+![Pipeline](assets/pipelines.png)
 
 The system follows four stages:
 
@@ -62,7 +62,7 @@ The system follows four stages:
 > Recommend top 5 players for the Warriors to improve interior defense using the last 10 games. Only include players with at least 20 games and 18 average minutes.
 
 ### End-to-End Demo Overview
-![Demo Overview](assets/demo_overview.png)
+![Demo Overview](assets/demo_overviews.png)
 
 This demo shows the full pipeline from:
 - parsed natural-language query
@@ -72,12 +72,12 @@ This demo shows the full pipeline from:
 - supporting visualizations
 
 ### Fit Ranking Close-Up
-![Fit Ranking](assets/fit_ranking_closeup.png)
+![Fit Ranking](assets/fit_rankings.png)
 
 The ranking module scores players based on how well their strengths align with the team’s most urgent tactical weaknesses.
 
 ### LLM Scouting Summary
-![LLM Summary](assets/llm_summary.png)
+![LLM Summary](assets/llm_summarys.png)
 
 After ranking, the LLM generates a scouting-style explanation that connects team weaknesses with player strengths and explains why the top recommendations fit the request.
 
